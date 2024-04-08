@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-rows: 7% 93%;
+    grid-template-columns: 5% 95%;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.sidebar {
+    background-color: red;
+}
+.main {
+    background-color: blueviolet;
+}
+
+
+/*---------------------------------------------------------------------- Attributes ----------------------------------------------------------------------*/
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+.hidden {
+    display: none;
+}
